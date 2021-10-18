@@ -14,7 +14,21 @@ ______________________________________
 
 int Ex4(int arr[], int n){
 	//Your codes here
-	
+	int i;
+    int sort1 = 1,sort2 = 1;
+    for(i=0;i<n-1;i++){
+        if (arr[i] < arr[i+1]){
+            sort1 = 0;
+            return 0;
+         return 1;
+        }
+        else if (arr[i] > arr[i+1]){
+            sort2 = 0;
+            return 0;
+        return -1;
+    }
+    else
+    printf("0");
 }
 
 int main(int argc, char *argv[]) {
