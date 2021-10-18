@@ -14,7 +14,9 @@ Ex:
 
 void Ex2(int arr[], int n){
 	//Your codes here
+	int a, b, swap=0;
 	
+	i
 }
 
 int main(int argc, char *argv[]) {
